@@ -1,0 +1,14 @@
+Source: mypackage
+Section: unknown
+Priority: optional
+Maintainer: Robert Stryzhak <bob4inski@bob4iski.sas.yp-c.yandex.net>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/mypackage
+#Vcs-Git: https://salsa.debian.org/debian/mypackage.git
+
+Package: mypackage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3, python3-flask
+Description: Oh, hello there
